@@ -1,0 +1,463 @@
+.mediaViewInfo {
+	--web-view-name: Coverage Map - Main;
+	--web-view-id: Coverage_Map_-_Main;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Coverage_Map_-_Main;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Coverage_Map_-_Main {
+	position: absolute;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Coverage Map - Main;
+	--web-view-id: Coverage_Map_-_Main;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Top_Menu {
+	position: absolute;
+	width: 428px;
+	height: 112px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Coverage_Map___About_and_Help.html;
+	cursor: pointer;
+}
+#Top_Menu_l {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Top_Menu_l {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 112px;
+	left: 0px;
+	top: 0px;
+}
+#Connectify {
+	left: 137px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(112,112,112,1);
+}
+#Help {
+	left: 191px;
+	top: 69px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(112,112,112,1);
+}
+#About {
+	left: 131px;
+	top: 69px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(112,112,112,1);
+}
+#Contact {
+	left: 243px;
+	top: 69px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(112,112,112,1);
+}
+#Line_9 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_9 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 17px;
+	left: 180.5px;
+	top: 69px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_10 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_10 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 17px;
+	left: 233.5px;
+	top: 69px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_11 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_11 {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 1px;
+	left: 163.5px;
+	top: 99.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Map {
+	position: absolute;
+	width: 428px;
+	height: 814px;
+	left: 0px;
+	top: 112px;
+	overflow: visible;
+}
+#Top_Bar {
+	position: absolute;
+	width: 395px;
+	height: 61px;
+	left: 16px;
+	top: 142px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Coverage_Map___Selection.html;
+	cursor: pointer;
+}
+#Selection_Menu {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Selection_Menu {
+	position: absolute;
+	overflow: visible;
+	width: 395px;
+	height: 61px;
+	left: 0px;
+	top: 0px;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 44px;
+	left: 125.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 2px;
+	height: 44.023px;
+	left: 271.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#X-Mobile {
+	left: 19px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#LTE {
+	left: 182px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 34px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#All {
+	left: 329px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 23px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Line_12 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_12 {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 1px;
+	left: 148.5px;
+	top: 49.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bottom_Bar {
+	position: absolute;
+	width: 395px;
+	height: 67px;
+	left: 17px;
+	top: 789px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Coverage_Map___Explanation.html;
+	cursor: pointer;
+}
+#Selection_Menu_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Selection_Menu_ {
+	position: absolute;
+	overflow: visible;
+	width: 395px;
+	height: 67px;
+	left: 0px;
+	top: 0px;
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 44px;
+	left: 197px;
+	top: 23px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Coverage_Good {
+	left: 25px;
+	top: 34px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Speed_20_Mbps {
+	left: 222px;
+	top: 34px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Line_13 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_13 {
+	overflow: visible;
+	position: absolute;
+	width: 91px;
+	height: 1px;
+	left: 151.5px;
+	top: 13.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Signal_Strength {
+	position: absolute;
+	width: 84px;
+	height: 225px;
+	left: 163px;
+	top: 334px;
+	overflow: visible;
+}
+#Good_Signal {
+	fill: rgba(20,255,0,0.2);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Good_Signal {
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	height: 75px;
+	left: 0px;
+	top: 150px;
+}
+#Medium_Signal {
+	fill: rgba(255,137,0,0.2);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Medium_Signal {
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	height: 75px;
+	left: 0px;
+	top: 75px;
+}
+#Bad_Signal {
+	fill: rgba(255,0,0,0.2);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Bad_Signal {
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	height: 75px;
+	left: 0px;
+	top: 0px;
+}
