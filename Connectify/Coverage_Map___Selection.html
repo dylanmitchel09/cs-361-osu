@@ -33,19 +33,21 @@
 			<path id="Line_2" d="M 0 0 L 1 44">
 			</path>
 		</svg>
-		<div id="Carrier">
+		<div id="X-Mobile">
 			<span>Carrier</span>
 		</div>
-		<div id="Technolgy">
+		<div id="LTE">
 			<span>Technology</span>
 		</div>
-		<div id="Sources">
+		<div id="All">
 			<span>Sources</span>
 		</div>
 		<svg class="Line_4" viewBox="0 0 394 1">
 			<path id="Line_4" d="M 0 0 L 394 0">
 			</path>
 		</svg>
+		<form>
+		<fieldset>
 		<div id="Carrier">
 			<p>Carrier: <br/>
 			  <label>
@@ -63,84 +65,35 @@
 		  </p>
 		</div>
 		<div id="Technology">
-			<span>Technology:</span>
+			<p>Technology: <br/>
+			  <label>
+			    <input type="radio" name="technology" value="5G"/>
+			    5G</label>
+			  <br/>
+			  <label>
+			    <input type="radio" name="technology" value="LTE"/>
+			    LTE</label>
+			  <br/>
+			  <label>
+			    <input type="radio" name="technology" value="3G"/>
+			    3G</label>
+			  <br/>
+		  </p>
 		</div>
 		<div id="Sources">
-			<span>Sources:</span>
-		</div>
-		<!--
-		<svg class="Ellipse_1">
-			<ellipse id="Ellipse_1" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="X_-_Mobile">
-			<span>X - Mobile</span>
-		</div>
-		<svg class="Ellipse_2">
-			<ellipse id="Ellipse_2" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="Y_-_Mobile">
-			<span>Y - Mobile</span>
-		</div>
-		<svg class="Ellipse_3">
-			<ellipse id="Ellipse_3" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="Z_-_Mobile">
-			<span>Z - Mobile</span>
-		</div>
-	-->
-		<form>
-		  <fieldset>
-</fieldset>
-		</form>
-	  <svg class="Ellipse_4">
-			<ellipse id="Ellipse_4" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="ID5G">
-			<span>5G</span>
-		</div>
-		<svg class="Ellipse_5">
-			<ellipse id="Ellipse_5" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="LTE_">
-			<span>LTE</span>
-		</div>
-		<svg class="Ellipse_6">
-			<ellipse id="Ellipse_6" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="ID3G">
-			<span>3G</span>
-		</div>
-		<svg class="Ellipse_7">
-			<ellipse id="Ellipse_7" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="All_bd">
-			<span>All</span>
-		</div>
-		<svg class="Ellipse_8">
-			<ellipse id="Ellipse_8" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="Cellmapper">
-			<span>Cellmapper</span>
-		</div>
-		<svg class="Ellipse_9">
-			<ellipse id="Ellipse_9" rx="9" ry="9" cx="9" cy="9">
-			</ellipse>
-		</svg>
-		<div id="Speedtest">
-			<span>Speedtest</span>
+			<p>Carrier: <br/>
+			  <label>
+			    <input type="radio" name="sources" value="none"/>
+			    None</label>
+		  </p>
 		</div>
 		<svg class="Line_14" viewBox="0 0 91 1">
 			<path onclick="application.goToTargetView(event)" id="Line_14" d="M 0 0 L 91 0">
+			<input type="submit" style="display:none;"/>
 			</path>
 		</svg>
+		</fieldset>
+		</form>
 	</div>
 	<div id="Top_Menu">
 		<svg class="Top_Menu_bk">
