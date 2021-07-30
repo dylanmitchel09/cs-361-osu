@@ -108,11 +108,6 @@
 	left: 16px;
 	top: 142px;
 	overflow: visible;
-	transition: all 0.3s ease-out;
-	--web-animation: fadein 0.3s ease-out;
-	--web-action-type: page;
-	--web-action-target: Coverage_Map___Main.html;
-	cursor: pointer;
 }
 #Selection_Menu {
 	fill: rgba(255,255,255,1);
@@ -565,6 +560,10 @@
 	left: 152.5px;
 	top: 284.5px;
 	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Coverage_Map___Main.html;
+	cursor: pointer;
 }
 #Top_Menu {
 	position: absolute;

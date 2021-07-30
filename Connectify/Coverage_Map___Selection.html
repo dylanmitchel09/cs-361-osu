@@ -10,18 +10,31 @@
 </head>
 <body>
 <div id="Coverage_Map_-_Selection">
-		<iframe
-			onclick="application.goToTargetView(event)" id="Map"
-		  width="428"
-		  height="920"
-		  style="border:0"
-		  loading="lazy"
-		  allowfullscreen
-		  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD9smFWudBfQh8QTLh_N_si9__hRI7kuxU
-			&q=Corvallis+OR">
+	<iframe
+	width="428"
+	height="920"
+	style="border:0"
+	loading="lazy"
+	allowfullscreen
+	src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD9smFWudBfQh8QTLh_N_si9__hRI7kuxU
+	  &q=Corvallis+OR">
 	</iframe>
 		
-	<div onclick="application.goToTargetView(event)" id="Top_Bar_Expanded">
+	<div id="Signal_Strength">
+		<svg class="Good_Signal">
+			<rect id="Good_Signal" rx="0" ry="0" x="0" y="0" width="84" height="75">
+			</rect>
+		</svg>
+		<svg class="Medium_Signal">
+			<rect id="Medium_Signal" rx="0" ry="0" x="0" y="0" width="84" height="75">
+			</rect>
+		</svg>
+		<svg class="Bad_Signal">
+			<rect id="Bad_Signal" rx="0" ry="0" x="0" y="0" width="84" height="75">
+			</rect>
+		</svg>
+	</div>
+	<div id="Top_Bar_Expanded">
 		<svg class="Selection_Menu">
 			<rect id="Selection_Menu" rx="0" ry="0" x="0" y="0" width="395" height="305">
 			</rect>
@@ -48,7 +61,7 @@
 			</path>
 		</svg>
 		<div id="Carrier">
-			<p>Carrier: </br>
+			<p>Carrier: <br/>
 			  <label>
 			    <input type="radio" name="carrier" value="TMB"/>
 			    T-Mobile</label>
@@ -62,7 +75,6 @@
 			    Verizon</label>
 			  <br/>
 		  </p>
-			<!--<span>Carrier:</span>-->
 		</div>
 		<div id="Technology">
 			<span>Technology:</span>
@@ -92,13 +104,12 @@
 		<div id="Z_-_Mobile">
 			<span>Z - Mobile</span>
 		</div>
-		-->
+	-->
 		<form>
-			<form action="">
-				<fieldset>
+		  <fieldset>
 </fieldset>
 		</form>
-		<svg class="Ellipse_4">
+	  <svg class="Ellipse_4">
 			<ellipse id="Ellipse_4" rx="9" ry="9" cx="9" cy="9">
 			</ellipse>
 		</svg>
@@ -141,7 +152,7 @@
 			<span>Speedtest</span>
 		</div>
 		<svg class="Line_14" viewBox="0 0 91 1">
-			<path id="Line_14" d="M 0 0 L 91 0">
+			<path onclick="application.goToTargetView(event)" id="Line_14" d="M 0 0 L 91 0">
 			</path>
 		</svg>
 	</div>

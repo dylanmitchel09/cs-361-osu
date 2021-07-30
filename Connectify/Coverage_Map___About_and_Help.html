@@ -10,17 +10,31 @@
 </head>
 <body>
 <div id="Coverage_Map_-_About_and_Help">
-		<iframe
-		  width="428"
-		  height="920"
-		  style="border:0"
-		  loading="lazy"
-		  allowfullscreen
-		  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD9smFWudBfQh8QTLh_N_si9__hRI7kuxU
-			&q=Corvallis+OR">
-	</iframe>
+	<iframe
+	width="428"
+	height="920"
+	style="border:0"
+	loading="lazy"
+	allowfullscreen
+	src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD9smFWudBfQh8QTLh_N_si9__hRI7kuxU
+	  &q=Corvallis+OR">
+</iframe>
 		
-	<div onclick="application.goToTargetView(event)" id="Top_Menu">
+	<div id="Signal_Strength">
+		<svg class="Good_Signal">
+			<rect id="Good_Signal" rx="0" ry="0" x="0" y="0" width="84" height="75">
+			</rect>
+		</svg>
+		<svg class="Medium_Signal">
+			<rect id="Medium_Signal" rx="0" ry="0" x="0" y="0" width="84" height="75">
+			</rect>
+		</svg>
+		<svg class="Bad_Signal">
+			<rect id="Bad_Signal" rx="0" ry="0" x="0" y="0" width="84" height="75">
+			</rect>
+		</svg>
+	</div>
+	<div id="Top_Menu">
 		<svg class="Top_Menu_q">
 			<rect id="Top_Menu_q" rx="0" ry="0" x="0" y="0" width="428" height="633">
 			</rect>
@@ -46,7 +60,7 @@
 			</path>
 		</svg>
 		<svg class="Line_11" viewBox="0 0 91 1">
-			<path id="Line_11" d="M 0 0 L 91 0">
+			<path onclick="application.goToTargetView(event)" id="Line_11" d="M 0 0 L 91 0">
 			</path>
 		</svg>
 		<svg class="Line_16" viewBox="0 0 428 1">
