@@ -11,6 +11,7 @@
 <body>
 <div id="Coverage_Map_-_Selection">
 		<iframe
+			onclick="application.goToTargetView(event)" id="Map"
 		  width="428"
 		  height="920"
 		  style="border:0"
@@ -47,7 +48,21 @@
 			</path>
 		</svg>
 		<div id="Carrier">
-			<span>Carrier:</span>
+			<p>Carrier: </br>
+			  <label>
+			    <input type="radio" name="carrier" value="TMB"/>
+			    T-Mobile</label>
+			  <br/>
+			  <label>
+			    <input type="radio" name="carrier" value="ATT"/>
+			    AT&T</label>
+			  <br/>
+			  <label>
+			    <input type="radio" name="carrier" value="VZW"/>
+			    Verizon</label>
+			  <br/>
+		  </p>
+			<!--<span>Carrier:</span>-->
 		</div>
 		<div id="Technology">
 			<span>Technology:</span>
@@ -55,6 +70,7 @@
 		<div id="Sources">
 			<span>Sources:</span>
 		</div>
+		<!--
 		<svg class="Ellipse_1">
 			<ellipse id="Ellipse_1" rx="9" ry="9" cx="9" cy="9">
 			</ellipse>
@@ -76,6 +92,12 @@
 		<div id="Z_-_Mobile">
 			<span>Z - Mobile</span>
 		</div>
+		-->
+		<form>
+			<form action="">
+				<fieldset>
+</fieldset>
+		</form>
 		<svg class="Ellipse_4">
 			<ellipse id="Ellipse_4" rx="9" ry="9" cx="9" cy="9">
 			</ellipse>
