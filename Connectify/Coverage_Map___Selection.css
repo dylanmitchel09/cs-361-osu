@@ -163,11 +163,11 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #X-Mobile {
-	left: 19px;
+	left: 43px;
 	top: 11px;
 	position: absolute;
 	overflow: visible;
-	width: 81px;
+	width: 61px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Helvetica Neue;
@@ -177,11 +177,11 @@
 	color: rgba(112,112,112,1);
 }
 #LTE {
-	left: 182px;
+	left: 147px;
 	top: 11px;
 	position: absolute;
 	overflow: visible;
-	width: 34px;
+	width: 103px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Helvetica Neue;
@@ -191,11 +191,11 @@
 	color: rgba(112,112,112,1);
 }
 #All {
-	left: 329px;
+	left: 294px;
 	top: 11px;
 	position: absolute;
 	overflow: visible;
-	width: 23px;
+	width: 74px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Helvetica Neue;
