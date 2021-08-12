@@ -31,11 +31,16 @@
 			<path id="Line_3" d="M 0 0 L 0 44">
 			</path>
 		</svg>
+		<!-- Coverage Categorization
+		Excellent: -80 dBm or lower
+		Good: -80 to -110 dBm
+	`	Bad: -110 dBm and higher
+		-->
 		<div id="Coverage_Good">
-			<span>Coverage: Good</span>
+			<span>Coverage: </span>
 		</div>
 		<div id="Speed_20_Mbps">
-			<span>Speed: 20 Mbps</span>
+			<span>Speed:  Mbps</span>
 		</div>
 		<svg class="Line_5" viewBox="0 0 395 1">
 			<path id="Line_5" d="M 0 0 L 395 0">
@@ -44,14 +49,24 @@
 		<div id="Coverage">
 			<span>Coverage:</span>
 		</div>
+		<!-- Coverage Categorization
+		Excellent: -80 dBm or lower
+		Good: -80 to -110 dBm
+	`	Bad: -110 dBm and higher
+		-->
 		<div id="Coverage_is_good_with_average_">
-			<span>Coverage is good, with average of <br/>X dB. You should expect a good call<br/>And text signal.<br/>As well as reliable speed</span>
+			<span>Coverage is good, with average of <br/> <!-- Insert number of dBm --> dB. You should expect a <!-- Excellent/Good/Bad --> call<br/>And text signal.<br/>As well as  <!-- Excellent/Good/Bad -->speed</span>
 		</div>
 		<div id="Speed">
 			<span>Speed</span>
 		</div>
+		<!-- Speed Categorization
+		SD: 2 Mbps or Lower
+		HD: 5 - 25 Mbps
+		UHD: 25 Mbps and Higher
+		-->
 		<div id="Speed_is_good_with_average_of_">
-			<span>Speed is good, with average of <br/>X Mbps. You should expect internet <br/>speed.<br/>Speed is good enough for 1080p<br/>Video streaming.</span>
+			<span>Speed is good, with average of <!-- Insert internet speed of Mbps --><br/> Mbps. You should expect internet <br/>speed.<br/>Speed is good enough for <!-- SD/HD/UHD --> <br/>Video streaming.</span>
 		</div>
 		<svg class="Line_15" viewBox="0 0 91 1">		<!-- Line as the Back Button -->
 			<path onclick="application.goToTargetView(event)" id="Line_15" d="M 0 0 L 91 0">
